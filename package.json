@@ -1,0 +1,11 @@
+{
+  "name": "RNIntegration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Isaac",
+  "license": "MIT",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64"
+  }
+}
