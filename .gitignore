@@ -1,1 +1,5 @@
 node_modules/
+screenshots/
+ios/DerivedData
+ios/Pods
+README.md
