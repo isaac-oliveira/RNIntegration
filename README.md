@@ -239,16 +239,16 @@ No `Info.plist` adicione:
 
 ```xml
 <key>NSAppTransportSecurity</key>
- 	<dict>
- 		<key>NSExceptionDomains</key>
- 		<dict>
- 			<key>localhost</key>
- 			<dict>
- 				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
- 				<true/>
- 			</dict>
- 		</dict>
- 	</dict>
+<dict>
+  <key>NSExceptionDomains</key>
+  <dict>
+    <key>localhost</key>
+    <dict>
+      <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+      <true/>
+    </dict>
+  </dict>
+</dict>
 ```
 
 Em seguida crie uma `ViewController` para o RN, aqui nomeamos como `RNViewController.swift`:
