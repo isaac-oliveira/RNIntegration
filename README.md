@@ -187,6 +187,15 @@ package your.package.name
  }
 ```
 
+Após criar a activity, precisamos adiciona-lá no `androidManifest.xml`
+
+```xml
+<activity
+    android:name=".MyReactActivity"
+    android:label="@string/app_name"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+```
+
 Agora precisamos chamar essa activity no código android, para isso:
 
 ```kt
